@@ -9,8 +9,7 @@ from torchvision import models, transforms
 
 # The folder link of your GitHub Release. All three model files sit inside it.
 # Take your old model_b link and delete "model_b.pth" from the end. Example:
-# https://github.com/YOUR_NAME/bird-species-classification/releases/download/v1/
-RELEASE_URL = "PASTE_YOUR_RELEASE_FOLDER_LINK_HERE"
+RELEASE_URL = "https://github.com/NC2500/Bird-species-classification/releases/download/v1"
 
 # The three trained models. The first one is the default choice.
 MODELS = {
