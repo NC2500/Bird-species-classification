@@ -9,7 +9,7 @@ from torchvision import models, transforms
 
 # Paste the download link of model_b.pth from your GitHub Release here (Step 3).
 # It looks like: https://github.com/YOUR_NAME/bird-classifier/releases/download/v1/model_b.pth
-MODEL_URL = "https://github.com/NC2500/Bird-species-classification/releases/tag/vs22"
+MODEL_URL = "https://github.com/NC2500/Bird-species-classification/releases/tag/vs22/model_b.pth"
 MODEL_PATH = "model_b.pth"
 
 st.set_page_config(page_title="Bird Species Classifier", page_icon="🐦")
