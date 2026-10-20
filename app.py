@@ -13,7 +13,7 @@ RELEASE_URL = "https://github.com/NC2500/Bird-species-classification/releases/do
 
 MODELS = {
     "Model B: ResNet50, layer4 fine-tuned + augmentation (best)": {
-        "file": "model_b.pth",
+        "file": "model_b1.pth",
         "arch": "resnet",
         "scores": "Test Top-1 72.2% | Test average per class 71.4%",
     },
@@ -23,7 +23,7 @@ MODELS = {
         "scores": "Test Top-1 65.3% | Test average per class 64.5%",
     },
     "Model A: ResNet50, new head only, no augmentation (baseline)": {
-        "file": "model_a.pth",
+        "file": "model_a1.pth",
         "arch": "resnet",
         "scores": "Validation accuracy 44.0%",
     },
