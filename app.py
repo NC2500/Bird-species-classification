@@ -183,8 +183,8 @@ with tab1:
     with c1:
         st.image(image, caption="Your photo", use_container_width=True)
     with c2:
-        m1, m2, m3 = st.columns(3)
-        m1.metric("Top guess", top_name)
+        st.metric("Top guess", top_name)   # full width, name fits
+        m2, m3 = st.columns(2)
         m2.metric("Confidence", f"{top_pct:.1f}%")
         m3.metric("Lead over 2nd", f"{gap:.1f} pts")
 
